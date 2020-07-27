@@ -1,0 +1,107 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#content
+{
+    background-image: linear-gradient( rgba(110,195,220,0), rgba(110,195,220,1));
+    width: 100%;
+    
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1em;
+    color: #999;
+    text-align: center;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: rgb(0, 55, 107);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(0, 55, 107);;
+    align-items: center;
+    align-content: center;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    align-content: center;
+}
+.card{
+    
+    margin: 10%;
+    background-color: rgb(243, 243, 243);
+    min-height: 70%;
+}
+
+.card textarea
+{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 90%;
+    min-height: 75%;
+}
+
