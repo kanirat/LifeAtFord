@@ -5,14 +5,14 @@
 }
 
 #sidebar {
-    min-width: 250px;
-    max-width: 250px;
+    min-width: 17%;
+    max-width: 17%;
     min-height: 100vh;
 }
 
 #content
 {
-    background-image: linear-gradient( rgba(110,195,220,0), rgba(110,195,220,1));
+    background-image: linear-gradient( rgba(253,253,253,0), rgba(110,195,220,1));
     width: 100%;
     
 }
@@ -41,7 +41,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
-    /* don't forget to add all the previously mentioned styles here too */
+    
     background: rgb(0, 55, 107);
     color: #fff;
     transition: all 0.3s;
@@ -52,6 +52,11 @@ a, a:hover, a:focus {
     background: rgb(0, 55, 107);;
     align-items: center;
     align-content: center;
+}
+
+#sidebar .sidebar-header img
+{
+    margin-left: 20%;
 }
 
 #sidebar ul.components {
@@ -85,19 +90,20 @@ ul ul a {
     background: #6d7fcc;
 }
 
-img {
-    max-width: 150px;
-    max-height: 150px;
+#sidebar img {
+    max-width: 70%;
+    max-height: 70%;
     align-content: center;
 }
-.card{
-    
-    margin: 10%;
+#inputArea .card{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: rgb(243, 243, 243);
     min-height: 70%;
 }
 
-.card textarea
+#inputArea .card textarea
 {
     margin-left: 2%;
     margin-right: 2%;
@@ -105,3 +111,26 @@ img {
     min-height: 75%;
 }
 
+#inquiryImage
+{
+    width: 100%;
+   
+}
+
+#inquiryImage img
+{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+#footer
+{
+    margin-left: 17%;
+    max-width: 90%;
+    min-height: 10%;
+}
+
+.card-group
+{
+    align-content: center;
+}
